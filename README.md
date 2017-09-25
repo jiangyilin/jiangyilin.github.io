@@ -14,7 +14,7 @@ npm config set unsafe-perm true
 
 4. 拉取代码
 ```
-git clone https://github.com/jiangyilin/blog.git
+git clone -b code https://github.com/jiangyilin/jiangyilin.github.io.git
 ```
 
 5. 安装依赖包
@@ -35,7 +35,8 @@ hexo s
 
 8. 刷新远程网页
 ```
-hexo d
+
+hexo clean && hexo g && hexo d
 ```
 
 
