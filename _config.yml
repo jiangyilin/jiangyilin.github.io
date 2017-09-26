@@ -81,3 +81,7 @@ deploy:
   repo: git@github.com:jiangyilin/jiangyilin.github.io.git
   branch: master
   message: 更新文章
+
+# admin
+admin:
+  deployCommand: './hexo-deploy.sh'

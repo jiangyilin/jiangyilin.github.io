@@ -33,9 +33,16 @@ hexo g
 hexo s
 ```
 
-8. 刷新远程网页
-```
+8. 访问admin服务
+>http://localhost:4000/admin/
 
+9. 编写文章
+通过admin编写文章
+
+10. 刷新远程网页
+```
+#使用admin里面的deploy
+#使用git命令
 hexo clean && hexo g && hexo d
 ```
 
