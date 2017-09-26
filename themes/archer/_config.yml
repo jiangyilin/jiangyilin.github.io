@@ -4,11 +4,11 @@ avatar: /avatar/kumamon.jpg
 # 博主名字，不填写该字段则默认采用Hexo配置文件中的author字段
 author: jiangyilin
 # 博客签名
-signature: xxxx
+signature: 我还是个宝宝
 # 社交账号
 social:
-  email: 12345@qq.com
-  github: //github.com/fi3ework
+  email: jiangyilin_99@163.com
+  github: //github.com/jiangyilin
   weibo:
   # zhihu:
   # facebook:
@@ -44,13 +44,13 @@ _404_image: 'http://oumn0o088.bkt.clouddn.com/404.jpg'
 # 目前只支持一键添加livere评论（因为懒），其他评论插件可自行添加在post.ejs模板中的</main>标签前。
 comment:
   # 将你的livere的uid填入以下字段
-  livere:
+  livere: MTAyMC8zMTA1NC83NjAy
 
 # ========== 统计 ========== #
 # 是否开启不蒜子统计
 busuanzi: false
 # 百度统计(填写siteID)
-baidu_analytics:
+baidu_analytics: c187967c44742817f68c7e91b304d128
 # Google统计(填写siteID)
 #google_analytics:
 # CNZZ统计
@@ -60,4 +60,4 @@ baidu_analytics:
 # favicon
 favicon: /assests/favicon.ico
 # 首页的文章摘要字数(默认300)
-truncate_length:
+truncate_length: 300
