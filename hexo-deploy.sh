@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-git push && hexo clean && hexo g && hexo d
+git add ./source && git commit -am 'deploy push' && git push origin code && hexo clean && hexo g && hexo d
