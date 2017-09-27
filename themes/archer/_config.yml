@@ -24,7 +24,7 @@ friends:
 # about页面  
 about:
   enable: true
-  image: '/intro/about-page.jpg'
+  image: /intro/about-page.jpg
 
 # ========== 站点 ========== #
 # 网站的title，每篇文章后面也会加上此字段利于SEO
@@ -34,11 +34,11 @@ main_title: 我的blog
 # 显示在网站banner上的副标题
 subtitle: it's better to burn out than to fade away
 # 主页banner的背景图片
-site_header_image: 'http://oumn0o088.bkt.clouddn.com/intro-desktop.jpg'
+site_header_image: http://oumn0o088.bkt.clouddn.com/intro-desktop.jpg
 # 文章页的默认背景图片
-post_header_image: 'http://oumn0o088.bkt.clouddn.com/post-bg.jpg'
+post_header_image: http://oumn0o088.bkt.clouddn.com/post-bg.jpg
 # 404页的背景图片
-_404_image: 'http://oumn0o088.bkt.clouddn.com/404.jpg'
+_404_image: http://oumn0o088.bkt.clouddn.com/404.jpg
 
 # ========== 评论插件 ========== #
 # 目前只支持一键添加livere评论（因为懒），其他评论插件可自行添加在post.ejs模板中的</main>标签前。
@@ -50,7 +50,7 @@ comment:
 # 是否开启不蒜子统计
 busuanzi: false
 # 百度统计(填写siteID)
-baidu_analytics: c187967c44742817f68c7e91b304d128
+baidu_analytics: https://hm.baidu.com/hm.js?c187967c44742817f68c7e91b304d128
 # Google统计(填写siteID)
 #google_analytics:
 # CNZZ统计
